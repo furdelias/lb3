@@ -1,1 +1,15 @@
-# lb3
+# lb3(1 завдання)
+#include <iostream>
+using namespace std;
+int main(void) {
+    
+    bool answer;
+    int value;
+    
+    cout << "Enter a value: ";
+    cin >> value;
+    
+    answer = ((value >= 0 && value < 10) );
+    cout << (answer ? "THAT'S TRUE :)" : "THAT'S NOT TRUE :(") << endl;
+return 0;
+}
